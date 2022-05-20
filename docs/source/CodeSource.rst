@@ -13,8 +13,6 @@ Getting data
 To get all the data about the current game
 you can use the ``tasks.get_game_latest_data()`` function:
 
-.. autofunction:: manage.main
-
 ==========
 Using data 
 ==========

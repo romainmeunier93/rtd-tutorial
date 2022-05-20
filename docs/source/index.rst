@@ -8,13 +8,6 @@
 Welcome to ERPsim's documentation!
 ==================================
 
-.. figure:: _static/img/SAP.png
-   :align: center 
-   :target: _images/SAP.png
-   :scale: 30
-
-   *Logo SAP*
-
 .. figure:: _static/img/ERP.png
    :align: center 
    :target: _images/ERP.png
