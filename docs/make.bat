@@ -10,8 +10,6 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
-if "%1" == "" goto help
-
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
 	echo.
@@ -21,12 +19,18 @@ if errorlevel 9009 (
 	echo.may add the Sphinx directory to PATH.
 	echo.
 	echo.If you don't have Sphinx installed, grab it from
-	echo.http://sphinx-doc.org/
+	echo.https://www.sphinx-doc.org/
 	exit /b 1
 )
 
+if "%1" == "" goto help
+if "%1" == "livehtml" goto livehtml
+
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
+
+:livehtml
+sphinx-autobuild %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %2
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
