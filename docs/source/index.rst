@@ -8,21 +8,6 @@
 Welcome to ERPsim's documentation!
 ==================================
 
-.. figure:: _static/img/ERP.png
-   :align: center 
-   :target: _images/ERP.png
-   :scale: 30
-
-   *Image illustrant un ERP*
-
-.. figure:: _static/img/HEC.png
-   :align: center 
-   :target: _images/HEC.png
-   :scale: 30
-
-   *Logo HEC Montréal*
-
-
 **ERPsim** est une aide pour le jeu *ERPsim* développé par `HEC Montréal <https://www.hec.ca/>`_. 
 Ce projet se place dans le cadre d’une observation lors de la Coupe du monde d’ERP. Lors de cette dernière, 
 plusieurs équipes se sont affrontées sur ERPsim, un jeu sur la gestion d’entreprise. L’une de ces équipes n’était ni plus ni moins qu’un BOT [#f1]_. 
